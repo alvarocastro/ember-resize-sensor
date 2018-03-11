@@ -6,7 +6,7 @@ var path = require('path'),
 	UnwatchedDir = require('broccoli-source').UnwatchedDir;
 
 module.exports = {
-	name: 'ember-resize-sensor'
+	name: 'ember-resize-sensor',
 
 	isDevelopingAddon: function () {
 		return true;
