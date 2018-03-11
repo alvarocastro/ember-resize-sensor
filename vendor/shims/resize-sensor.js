@@ -3,10 +3,10 @@
 		'use strict';
 
 		return {
-			'default': self['resize-sensor'],
+			'default': self['ResizeSensor'],
 			__esModule: true,
 		};
 	}
 
-	define('resize-sensor', [], vendorModule);
+	define('ResizeSensor', [], vendorModule);
 })();
